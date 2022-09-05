@@ -30,9 +30,9 @@ export default function NavBar() {
             </ul>
         </div>
 
-        <div className='hidden md:flex w-14 h-14 rounded-full bg-gray-800  items-center justify-center hover:scale-125 hover:duration-300 hover:bg-white/50'>
+        <div className='hidden md:flex w-14 h-14 rounded-full bg-white/50  items-center justify-center hover:scale-125 hover:duration-300 hover:bg-white/50'>
 
-            <a href="boton">
+            <a href="https://wa.link/8vh8pe" target="_blank">
             <IoLogoWhatsapp className='text-green-500 text-3xl '/>
             </a>
             
