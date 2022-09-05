@@ -33,7 +33,7 @@ export default function About() {
       </div>
 
       <div className=' mt-[50px] md:w-auto md:m-auto '>
-         <img src={fotoPerfil} alt="fotoPerfil" className='md:w-[50vh] md:h-[400px]  w-[70%] h-[350px] rounded-sm  hover:scale-110 duration-300 m-auto'/>
+         <img src={fotoPerfil} alt="fotoPerfil" className='md:w-[50vh] md:h-[400px]  w-[70%] h-[350px] rounded-sm  hover:scale-110 duration-300 m-auto mt-20'/>
       </div>
     </div>
   )

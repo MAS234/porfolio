@@ -1,4 +1,5 @@
 import About from "./componentes/About";
+import Contact from "./componentes/Contact";
 import Hero from "./componentes/Hero";
 import NavBar from "./componentes/NavBar";
 import Projects from "./componentes/Projects";
@@ -15,8 +16,8 @@ function App() {
       <About/>
  
       <Projects/>
-      
-      {/* contact */}
+
+      <Contact/>
       {/* footer  */}
     
     </div>
