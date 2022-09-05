@@ -9,7 +9,7 @@ export default function About() {
   return (
     <div className='w-full h-screen md:flex flex-wrap items-center justify-center md:justify-evenly bg-black ' >
 
-      <div className=' text-white m-auto w-[60vh] h-[400px] md:text-left text-center'>
+      <div className=' text-white m-auto w-[60vh] h-[400px] md:text-left text-center mb-10'>
 
         <h1 className='text-2xl md:text-3xl m-auto p-[10px] ' id='sobremi'>Sobre Mi</h1>
         <div className='m-auto mt-[5px] md:mt-[15px] text-sm md:text-lg p-[5px]'>
@@ -28,8 +28,8 @@ export default function About() {
         
       </div>
 
-      <div className='mt-[-100px] mt:[0px] md:w-auto md:m-auto'>
-         <img src={fotoPerfil} alt="fotoPerfil" className='md:w-[50vh] md:h-[400px] w-[30vh] h-[210px] hover:scale-110 duration-300 m-auto'/>
+      <div className='mt-[-100px] mt:[0px] md:w-auto md:m-auto '>
+         <img src={fotoPerfil} alt="fotoPerfil" className='md:w-[50vh] md:h-[400px]  w-[30vh] h-[210px]  hover:scale-110 duration-300 m-auto'/>
       </div>
     </div>
   )
