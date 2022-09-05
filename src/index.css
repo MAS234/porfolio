@@ -7,15 +7,5 @@ html{
     scroll-behavior: smooth;
 }
 
-.textoMovible{
-    white-space: nowrap;
-    overflow: hidden;
-    width: 35em;
-    animation: anim 4s;
-}
-@keyframes anim{
-    from{width: 0;}
-}
-
 
 
