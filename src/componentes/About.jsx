@@ -3,6 +3,8 @@ import Css from "../media/css.png"
 import Html from "../media/html.png"
 import Js from "../media/js.jpg"
 import Reac from "../media/react.png"
+import Sass from "../media/sass.png"
+import Figma from "../media/figma.png"
 import fotoPerfil from "../media/fotoPerfil.jpg"
 
 export default function About() {
@@ -16,13 +18,15 @@ export default function About() {
           <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, exercitationem? Voluptates iure culpa odio debitis iste sequi non? Eaque fugit odit, soluta quod laboriosam sint hic rem ad accusamus voluptates.</p>
         </div>
 
-        <h2 className='m-auto mt-[5px] md:mt-[20px] text-2xl md:text-3xl'>Lenguajes</h2>
+        <h2 className='m-auto mt-[5px] md:mt-[20px] text-2xl md:text-3xl'>Skills</h2>
 
-        <div className='flex justify-evenly items-center m-5 gap-4'>
+        <div className='w-[90%] flex  items-center  gap-4 overflow-auto p-5 md:overflow-hidden mt-[-20px]'>
           <img className='mt-[20px] md:mt-[40px] h-[40px] md:h-[50px] hover:scale-110 duration-300' src={Css} alt="css" />
           <img className='mt-[20px] md:mt-[40px] h-[40px] md:h-[50px] hover:scale-110 duration-300' src={Html} alt="Html" />
           <img className='mt-[20px] md:mt-[40px] h-[40px] md:h-[50px] hover:scale-110 duration-300' src={Js} alt="Js" />
           <img className='mt-[20px] md:mt-[40px] h-[40px] md:h-[50px] hover:scale-110 duration-300' src={Reac} alt="reac" />
+          <img className='mt-[20px] md:mt-[40px] h-[40px] md:h-[50px] hover:scale-110 duration-300' src={Sass} alt="reac" />
+          <img className='mt-[20px] md:mt-[40px] h-[40px] md:h-[50px] hover:scale-110 duration-300' src={Figma} alt="reac" />
         </div>
 
         

@@ -7,7 +7,7 @@ import Projects from "./componentes/Projects";
 function App() {
   return (
     <div className="w-full h-full font-montserrat ">
-
+    
       <NavBar/>
    
       <Hero/>

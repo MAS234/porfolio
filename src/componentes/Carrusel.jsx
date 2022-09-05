@@ -14,6 +14,7 @@ import { Pagination, Navigation, Autoplay } from "swiper";
 import viajes from "../media/vijaes.png";
 import peaky from "../media/peaky.png";
 import pizzas from "../media/pizzas.png";
+import gym from "../media/gym.png"
 
 export default function Carrusel() {
 
@@ -43,7 +44,18 @@ export default function Carrusel() {
         info:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nemo accusantium velit aperiam id enim dolores sapiente, impedit totam sequi aliquam doloremque natus soluta quibusdam alias saepe molestiae delectus voluptatum.",
         link:"https://mas234.github.io/peaky-blinders/",
         codde:"https://github.com/MAS234/peaky-blinders",
-    }];
+    },
+
+    {
+      imagen:gym,
+      titulo:"Titulo4",
+      tituloChiquito:"GYM",
+      info:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nemo accusantium velit aperiam id enim dolores sapiente, impedit totam sequi aliquam doloremque natus soluta quibusdam alias saepe molestiae delectus voluptatum.",
+      link:"https://mas234.github.io/paginaGym/",
+      codde:"https://github.com/MAS234/paginaGym",
+  },
+  
+  ];
 
     return (
         <>
