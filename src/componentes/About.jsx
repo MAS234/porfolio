@@ -20,7 +20,7 @@ export default function About() {
 
         <h2 className='m-auto mt-[5px] md:mt-[20px] text-2xl md:text-3xl'>Skills</h2>
 
-        <div className='w-[90%] flex  items-center  gap-4 overflow-auto p-5 md:overflow-hidden mt-[-20px]'>
+        <div className='iconos gap-5'>
           <img className='mt-[20px] md:mt-[40px] h-[40px] md:h-[50px] hover:scale-110 duration-300' src={Css} alt="css" />
           <img className='mt-[20px] md:mt-[40px] h-[40px] md:h-[50px] hover:scale-110 duration-300' src={Html} alt="Html" />
           <img className='mt-[20px] md:mt-[40px] h-[40px] md:h-[50px] hover:scale-110 duration-300' src={Js} alt="Js" />
