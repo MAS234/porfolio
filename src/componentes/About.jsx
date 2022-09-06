@@ -15,7 +15,7 @@ export default function About() {
 
         <h1 className='text-2xl md:text-3xl m-auto  p-[10px] ' id='sobremi'>Sobre Mi</h1>
         <div className=' m-auto mt-[5px] md:mt-[15px] text-md md:text-lg p-[5px] '>
-          <p >Soy desarrollador web junior,tengo 20 años, estudio programacion y diseño UX hace 6 meses , tuve la oportunidad de trabajar con pequeñas empresas y comercios desarrollando su marca personal,soy un apasiona y disciplinado por la tecnologia. </p>
+          <p >Soy desarrollador web junior,tengo 20 años, estudio programacion y diseño UX, tuve la oportunidad de trabajar con pequeñas empresas y comercios desarrollando su marca personal,soy un apasionado y disciplinado por la tecnologia. </p>
         </div>
 
         <h2 className='m-auto mt-[30px] md:mt-[20px] text-2xl md:text-3xl'>Skills</h2>
