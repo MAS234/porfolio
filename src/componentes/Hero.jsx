@@ -16,7 +16,7 @@ export default function Hero() {
         
         <div>      
         <h1 className='text-center text-xl md:text-5xl' >BIENVENIDO A MI SITIO WEB</h1>
-        <p className='flex justify-center text-base md:text-xl '>Miguel Martinez | Desarrollador Junior</p>
+        <p className='flex justify-center text-base md:text-xl '>Miguel Martinez | Desarrollador Web</p>
         </div>
 
     </div>

@@ -16,7 +16,7 @@ export default function About() {
 
         <h1 className=' text-center mt-10 md:text-3xl text-2xl '>SOBRE MI</h1>
 
-        <p className=' text-center mt-5 md:text-xl text-sm'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates cupiditate est temporibus error asperiores aperiam ullam placeat saepe, id consequatur sunt voluptatum magnam eveniet cumque nihil. Eligendi cum placeat ab!</p>
+        <p className=' text-center mt-5 md:text-xl text-sm p-5'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates cupiditate est temporibus error asperiores aperiam ullam placeat saepe, id consequatur sunt voluptatum magnam eveniet cumque nihil. Eligendi cum placeat ab!</p>
 
         <h2 className='mt-10 text-center text-2xl '>SKILLS</h2>
 

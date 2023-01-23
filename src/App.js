@@ -3,8 +3,6 @@ import Contact from "./componentes/Contact";
 import Hero from "./componentes/Hero";
 import NavBar from "./componentes/NavBar";
 import Projects from "./componentes/Projects";
-import Diseño from "./componentes/Diseño"
-
 
 function App() {
   return (
