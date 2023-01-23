@@ -11,50 +11,40 @@ import "swiper/css/navigation";
 // import required modules
 import { Pagination, Navigation, Autoplay } from "swiper";
 
-import viajes from "../media/vijaes.png";
-import criptomonedas from "../media/Fondo.png";
-import pizzas from "../media/pizzas.png";
-import Veterinaria from "../media/Fondo-veterinaria.png"
+//IMPOR IMAGENES
+import FondoBuzo from "../media/FondoBuzo.png"
+import FondoBilingual from "../media/fondo-bilingual.png"
+import FondoCrazyBeer from "../media/APP-Cerveza.png"
 
 export default function Carrusel() {
 
     const slideInfo =[{
         
-        imagen:viajes,
+        imagen:FondoBuzo,
         titulo:"Titulo1",
-        tituloChiquito:"sky-fly",
+        tituloChiquito:"Hoddie-Desing",
         info:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nemo accusantium velit aperiam id enim dolores sapiente, impedit totam sequi aliquam doloremque natus soluta quibusdam alias saepe molestiae delectus voluptatum.",
-        link:"https://mas234.github.io/paginaViajes/",
-        codde:"https://github.com/MAS234/paginaViajes",
+        link:"https://sites.google.com/view/portfolio-miguel-martinez/hoodie-desing",
+        prueba:"https://www.figma.com/proto/V7sbTiVziofLRKd0ExrNre/Dise%C3%B1o-Buzos?page-id=42%3A600&node-id=42%3A681&viewport=415%2C284%2C0.03&scaling=scale-down&starting-point-node-id=42%3A681"
     },
-
-    {
-        imagen:pizzas,
-        titulo:"Titulo2",
-        tituloChiquito:"Pizzeria",
-        info:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nemo accusantium velit aperiam id enim dolores sapiente, impedit totam sequi aliquam doloremque natus soluta quibusdam alias saepe molestiae delectus voluptatum.",
-        link:"https://mas234.github.io/pizzeriaPagina/",
-        codde:"https://github.com/MAS234/pizzeriaPagina",
-    },
-
-    {
-        imagen:criptomonedas,
-        titulo:"Cotizador",
-        tituloChiquito:"Cotizador de criptomonedas",
-        info:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nemo accusantium velit aperiam id enim dolores sapiente, impedit totam sequi aliquam doloremque natus soluta quibusdam alias saepe molestiae delectus voluptatum.",
-        link:"https://cotizador-criptomonedas-react-tau.vercel.app/",
-        codde:"https://github.com/MAS234/CotizadorCriptomonedas-react",
-    },
-
-    {
-      imagen:Veterinaria,
-      titulo:"Titulo4",
-      tituloChiquito:"Registro Pacientes",
+    {        
+      imagen:FondoBilingual,
+      titulo:"Titulo1",
+      tituloChiquito:"Bilingual Rabbit",
       info:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nemo accusantium velit aperiam id enim dolores sapiente, impedit totam sequi aliquam doloremque natus soluta quibusdam alias saepe molestiae delectus voluptatum.",
-      link:"https://registro-clientes-veterinaria.vercel.app/",
-      codde:"https://github.com/MAS234/paginaGym",
-  },
-  
+      link:"https://sites.google.com/view/portfolio-miguel-martinez/bilingual-rabbit",
+      prueba:"https://www.figma.com/proto/R4viz1wXvZJgoDdTo4tux5/Dise%C3%B1o-de-aplicacion-de-idiomas?page-id=93%3A5&node-id=93%3A9570&viewport=319%2C90%2C0.1&scaling=scale-down&starting-point-node-id=93%3A9570"
+      
+    },
+    {
+      imagen:FondoCrazyBeer,
+      titulo:"Crazy Beer",
+      tituloChiquito:"Crazy Beer",
+      info:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nemo accusantium velit aperiam id enim dolores sapiente, impedit totam sequi aliquam doloremque natus soluta quibusdam alias saepe molestiae delectus voluptatum.",
+      link:"https://sites.google.com/view/portfolio-miguel-martinez/crazy-beer",
+      prueba:"https://www.figma.com/proto/xaacMAXj4XZfi4Qh3tVBYV/Prototipo-App?page-id=94%3A2&node-id=97%3A1368&viewport=700%2C355%2C0.29&scaling=scale-down&starting-point-node-id=97%3A1368"
+    }
+
   ];
 
     return (
@@ -125,7 +115,9 @@ export default function Carrusel() {
                       <p className="px-4 text-center text-sm text-white">{elemento.info}</p>
                       {/* BOTON ANIMACION  */}
                       <div className="flex z-20 flex-col md:flex-row gap-2 absolute -bottom-0 delay-500 duration-1000 group-hover:bottom-2 scale-0 group-hover:scale-100 ">
-                         <button className='bg-black text-white border-white border-solid border p-3 rounded-xl hover:bg-gray-500'><a href={elemento.codde} target="_blank">code</a></button>
+
+                      <button className='bg-black text-white border-white border-solid border p-3 rounded-xl hover:bg-gray-500' ><a href={elemento.prueba} target="_blank">Prueba</a></button>
+
                          <button className='bg-black text-white border-white border-solid border p-3 rounded-xl hover:bg-gray-500' ><a href={elemento.link} target="_blank">link</a></button>
                       </div>
                      </div>

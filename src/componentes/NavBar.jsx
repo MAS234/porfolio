@@ -25,7 +25,7 @@ export default function NavBar() {
                 </li>
 
                 <li className='hover:underline hover:scale-125 duration-300'>
-                   <a href="sdf">Contacto</a> 
+                   <a href="#contacto">Contacto</a> 
                 </li>
             </ul>
         </div>

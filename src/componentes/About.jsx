@@ -5,36 +5,66 @@ import Js from "../media/js.jpg"
 import Reac from "../media/react.png"
 import Sass from "../media/sass.png"
 import Figma from "../media/figma.png"
-import fotoPerfil from "../media/fotoPerfil.jpg"
+import Vite from "../media/logo-with-shadow.png"
+import FotoPerfil from "../media/fotoPerfil.jpg"
 
 export default function About() {
   return (
-    <div className='w-full h-screen md:flex flex-wrap items-center justify-center md:justify-evenly bg-black ' >
+    <div className='w-full h-screen md:flex justify-center  bg-black mt-10' id='sobremi'>
 
-      <div className=' text-white m-auto w-[50%] h-[400px] md:text-left text-center mb-10'>
+      <div className='mt-10 text-white '>
 
-        <h1 className='text-2xl md:text-3xl m-auto  p-[10px] ' id='sobremi'>Sobre Mi</h1>
-        <div className=' m-auto mt-[5px] md:mt-[15px] text-md md:text-lg p-[5px] '>
-          <p >Soy desarrollador web junior,tengo 20 años, estudio programacion y diseño UX, tuve la oportunidad de trabajar con pequeñas empresas y comercios desarrollando su marca personal,soy un apasionado y disciplinado por la tecnologia. </p>
+        <h1 className=' text-center mt-10 md:text-3xl text-2xl '>SOBRE MI</h1>
+
+        <p className=' text-center mt-5 md:text-xl text-sm'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates cupiditate est temporibus error asperiores aperiam ullam placeat saepe, id consequatur sunt voluptatum magnam eveniet cumque nihil. Eligendi cum placeat ab!</p>
+
+        <h2 className='mt-10 text-center text-2xl '>SKILLS</h2>
+
+        <div className='flex md:gap-10 gap-4 justify-center mt-10 flex-wrap'>
+
+          <div className='text-center hover:scale-110 duration-300'>
+            <img className='h-12 w-13 ' src={Html} alt="HTML" />
+            <p className='text-sm md:text-lg'>HTML</p>
+          </div>
+
+          <div className='text-center hover:scale-110 duration-300'>
+            <img className='h-12 w-13' src={Css} alt="HTML" />
+            <p>CSS</p>
+          </div>
+
+          <div className='text-center hover:scale-110 duration-300'>
+            <img className='h-12 w-13' src={Js} alt="HTML" />
+            <p>JS</p>
+          </div>
+
+          <div className='text-center hover:scale-110 duration-300'>
+            <img className='h-12 w-13' src={Reac} alt="HTML" />
+            <p>React</p>
+          </div>
+
+          <div className='text-center hover:scale-110 duration-300'>
+            <img className='h-12 w-13' src={Vite} alt="HTML" />
+            <p>Vite</p>
+          </div>
+
+          <div className='text-center hover:scale-110 duration-300'>
+            <img className='h-12 w-13' src={Sass} alt="HTML" />
+            <p>SAAS</p>
+          </div>
+          
+
+          <div className='text-center hover:scale-110 duration-300'>
+            <img className='h-12 w-13' src={Figma} alt="HTML" />
+            <p>FIGMA</p>
+          </div>
         </div>
 
-        <h2 className='m-auto mt-[30px] md:mt-[20px] text-2xl md:text-3xl'>Skills</h2>
-
-        <div className='iconos gap-5'>
-          <img className='mt-[20px] md:mt-[40px] h-[40px] md:h-[50px] hover:scale-110 duration-300' src={Css} alt="css" />
-          <img className='mt-[20px] md:mt-[40px] h-[40px] md:h-[50px] hover:scale-110 duration-300' src={Html} alt="Html" />
-          <img className='mt-[20px] md:mt-[40px] h-[40px] md:h-[50px] hover:scale-110 duration-300' src={Js} alt="Js" />
-          <img className='mt-[20px] md:mt-[40px] h-[40px] md:h-[50px] hover:scale-110 duration-300' src={Reac} alt="reac" />
-          <img className='mt-[20px] md:mt-[40px] h-[40px] md:h-[50px] hover:scale-110 duration-300' src={Sass} alt="reac" />
-          <img className='mt-[20px] md:mt-[40px] h-[40px] md:h-[50px] hover:scale-110 duration-300' src={Figma} alt="reac" />
-        </div>
-
-        
       </div>
 
-      <div className=' mt-[50px] md:w-auto md:m-auto absolute md:relative'>
-         <img src={fotoPerfil} alt="fotoPerfil" className='md:w-[50vh] md:h-[400px]  w-[70%] h-[35%] rounded-sm  hover:scale-110 duration-300 m-auto mt-20'/>
+      <div>
+        <img className='w-[60%] mt-20  m-auto hover:scale-110 duration-300 rounded-md' src={FotoPerfil} alt="fotoDePerfil" />
       </div>
+
     </div>
   )
 }
