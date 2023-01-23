@@ -14,7 +14,7 @@ export default function Contact() {
           
             <div className='p-5 mt-20 text-5xl '>Trabajemos <span className='text-white font-bold'>Juntos</span></div>
 
-            <div className='flex justify-center items-center mt-20 md:text-7xl  md:gap-24 p-2 gap-10 text-xl'>
+            <div className='flex justify-center items-center mt-20 md:text-7xl  md:gap-24 p-2 gap-10 text-5xl'>
 
                <div className=' p-3 rounded-xl  shadow-md  hover:bg-red-700 hover:shadow-red-600 duration-300 cursor-pointer'>
                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSGLBwhzdXtsXgLLLbJnbdgjdHkVbvDjBdMlcgxjRcppKTzJhzhbFnDckGqtbnwdwcGWrwhV" target="_blank"><ion-icon name="mail-open-outline" ></ion-icon></a> 
