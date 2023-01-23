@@ -108,7 +108,7 @@ export default function Carrusel() {
                     <div class="absolute backface-hidden  w-full h-full select-none ">
                       <img
                         src={elemento.imagen}
-                        class="w-full h-full rounded-lg object-cover object-center"
+                        class="w-full md:h-full rounded-lg object-cover object-center"
                         alt="none"
                       />
                     <div className="absolute bottom-0 right-0  rounded-tl-lg flex text-center justify-center items-center px-8 py-4 bg-slate-900/80">
