@@ -6,6 +6,7 @@ import Reac from "../media/react.png"
 import Sass from "../media/sass.png"
 import Figma from "../media/figma.png"
 import Vite from "../media/logo-with-shadow.png"
+import Tailwind from "../media/Tailwind_CSS_Logo.svg.png"
 import FotoPerfil from "../media/fotoPerfil.jpg"
 
 export default function About() {
@@ -28,27 +29,32 @@ export default function About() {
           </div>
 
           <div className='text-center hover:scale-110 duration-300'>
-            <img className='h-12 w-13' src={Css} alt="HTML" />
+            <img className='h-12 w-13' src={Css} alt="css" />
             <p>CSS</p>
           </div>
 
           <div className='text-center hover:scale-110 duration-300'>
-            <img className='h-12 w-13' src={Js} alt="HTML" />
+            <img className='h-12 w-13' src={Js} alt="js" />
             <p>JS</p>
           </div>
 
           <div className='text-center hover:scale-110 duration-300'>
-            <img className='h-12 w-13' src={Reac} alt="HTML" />
+            <img className='h-12 w-13' src={Reac} alt="react" />
             <p>React</p>
           </div>
 
           <div className='text-center hover:scale-110 duration-300'>
-            <img className='h-12 w-13' src={Vite} alt="HTML" />
+            <img className='h-12 w-13' src={Tailwind} alt="tailwind" />
+            <p>Tailwind</p>
+          </div>
+
+          <div className='text-center hover:scale-110 duration-300'>
+            <img className='h-12 w-13' src={Vite} alt="vite" />
             <p>Vite</p>
           </div>
 
           <div className='text-center hover:scale-110 duration-300'>
-            <img className='h-12 w-13' src={Sass} alt="HTML" />
+            <img className='h-12 w-13' src={Sass} alt="sass" />
             <p>SAAS</p>
           </div>
           

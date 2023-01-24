@@ -21,36 +21,36 @@ export default function Carrusel() {
     const slideInfo =[{
         
         imagen:viajes,
-        titulo:"Titulo1",
-        tituloChiquito:"sky-fly",
-        info:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nemo accusantium velit aperiam id enim dolores sapiente, impedit totam sequi aliquam doloremque natus soluta quibusdam alias saepe molestiae delectus voluptatum.",
+        titulo:"Sky-Fly",
+        tituloChiquito:"HTML5 | CSS3",
+        info:"Sky-Fly es una onepage de viajes desarrollada en HTML5 Y CSS3, su objetivo es vender paquetes de viaje y proporcionar información al cliente sobre los distintos destinos. Abajo encontraras el link de prueba para visitar la pagina y el código.",
         link:"https://mas234.github.io/paginaViajes/",
         codde:"https://github.com/MAS234/paginaViajes",
     },
 
     {
         imagen:pizzas,
-        titulo:"Titulo2",
-        tituloChiquito:"Pizzeria",
-        info:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nemo accusantium velit aperiam id enim dolores sapiente, impedit totam sequi aliquam doloremque natus soluta quibusdam alias saepe molestiae delectus voluptatum.",
+        titulo:"Pizzas Martínez",
+        tituloChiquito:"HTML5 | CSS3 | JAVASCRIPT",
+        info:"Pizzas Martínez es un proyecto desarrollado en HTML5, CSS3 Y JAVASCRIPT, tiene como objetivo informar al usuario sobre la ubicación del lugar, como instalar la aplicación para realizar pedidos y algunos productos con los que cuenta el lugar. Abajo encontraras el link de prueba para visitar la pagina y el código.",
         link:"https://mas234.github.io/pizzeriaPagina/",
         codde:"https://github.com/MAS234/pizzeriaPagina",
     },
 
     {
         imagen:criptomonedas,
-        titulo:"Cotizador",
-        tituloChiquito:"Cotizador de criptomonedas",
-        info:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nemo accusantium velit aperiam id enim dolores sapiente, impedit totam sequi aliquam doloremque natus soluta quibusdam alias saepe molestiae delectus voluptatum.",
+        titulo:"Cotizador de Criptomonedas",
+        tituloChiquito:"VITE | REACT | TAILWIND",
+        info:"Esta aplicacion fue desarrollada en Vite, Tailwind y React. Es una aplicación que extrae información de una API la cual hace la conversión en tiempo real de la moneda elegida y la criptomoneda elegida. Abajo encontraras el link de prueba para visitar la pagina y el código.",
         link:"https://cotizador-criptomonedas-react-tau.vercel.app/",
         codde:"https://github.com/MAS234/CotizadorCriptomonedas-react",
     },
 
     {
       imagen:Veterinaria,
-      titulo:"Titulo4",
-      tituloChiquito:"Registro Pacientes",
-      info:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nemo accusantium velit aperiam id enim dolores sapiente, impedit totam sequi aliquam doloremque natus soluta quibusdam alias saepe molestiae delectus voluptatum.",
+      titulo:"Administrador de Pacientes",
+      tituloChiquito:"VITE | REACT | TAILWIND",
+      info:"Esta aplicación se desarrolló en Vite, Tailwind y React. Es una aplicación dirigida a una veterinaria. Tiene opciones de agregar pacientes, editar la información de los pacientes y por ultimo eliminar algún paciente. Abajo encontraras el link de prueba para visitar la pagina y el código.",
       link:"https://registro-clientes-veterinaria.vercel.app/",
       codde:"https://github.com/MAS234/paginaGym",
   },

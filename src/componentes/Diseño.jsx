@@ -21,17 +21,17 @@ export default function Carrusel() {
     const slideInfo =[{
         
         imagen:FondoBuzo,
-        titulo:"Titulo1",
-        tituloChiquito:"Hoddie-Desing",
-        info:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nemo accusantium velit aperiam id enim dolores sapiente, impedit totam sequi aliquam doloremque natus soluta quibusdam alias saepe molestiae delectus voluptatum.",
+        titulo:"Hoddie-Desing",
+        tituloChiquito:"Figma",
+        info:"Hoodie Desing es el diseño de un sitio web adaptable el cual cuenta con personalización en sus buzos y tiene disponible variedad de modelos y accesorios. El objetivo es que el usuario logre tener una buena experiencia con el flujo de la aplicación y logre realizar una compra exitosa. Dejo abajo el link a la pagina del diseño y la prueba en Figma.",
         link:"https://sites.google.com/view/portfolio-miguel-martinez/hoodie-desing",
         prueba:"https://www.figma.com/proto/V7sbTiVziofLRKd0ExrNre/Dise%C3%B1o-Buzos?page-id=42%3A600&node-id=42%3A681&viewport=415%2C284%2C0.03&scaling=scale-down&starting-point-node-id=42%3A681"
     },
     {        
       imagen:FondoBilingual,
-      titulo:"Titulo1",
-      tituloChiquito:"Bilingual Rabbit",
-      info:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nemo accusantium velit aperiam id enim dolores sapiente, impedit totam sequi aliquam doloremque natus soluta quibusdam alias saepe molestiae delectus voluptatum.",
+      titulo:"Bilingual Rabbit",
+      tituloChiquito:"Figma",
+      info:"Es un diseño de una aplicación y sitio web adaptable. Una aplicación la cual consiste en proponer una forma de estudio en que el usuario pueda ir a su propio ritmo y que se sienta cómodo aprendiendo, la aplicación cuenta con distintos idiomas, también con incentivos o recompensas. Dejo abajo el link a la pagina del diseño y la prueba en Figma.",
       link:"https://sites.google.com/view/portfolio-miguel-martinez/bilingual-rabbit",
       prueba:"https://www.figma.com/proto/R4viz1wXvZJgoDdTo4tux5/Dise%C3%B1o-de-aplicacion-de-idiomas?page-id=93%3A5&node-id=93%3A9570&viewport=319%2C90%2C0.1&scaling=scale-down&starting-point-node-id=93%3A9570"
       
@@ -39,8 +39,8 @@ export default function Carrusel() {
     {
       imagen:FondoCrazyBeer,
       titulo:"Crazy Beer",
-      tituloChiquito:"Crazy Beer",
-      info:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nemo accusantium velit aperiam id enim dolores sapiente, impedit totam sequi aliquam doloremque natus soluta quibusdam alias saepe molestiae delectus voluptatum.",
+      tituloChiquito:"Figma",
+      info:"Es un aplicación con temática Bar-Restaurant, los principales objetivos son que el usuario se sintiera cómodo con la aplicación, que el proceso de pago y de pedido sea rápido y sencillo, pero lo más importante intuitivo, accesible y fácil de utilizar. Dejo abajo el link a la página del diseño y la prueba en Figma.",
       link:"https://sites.google.com/view/portfolio-miguel-martinez/crazy-beer",
       prueba:"https://www.figma.com/proto/xaacMAXj4XZfi4Qh3tVBYV/Prototipo-App?page-id=94%3A2&node-id=97%3A1368&viewport=700%2C355%2C0.29&scaling=scale-down&starting-point-node-id=97%3A1368"
     }
