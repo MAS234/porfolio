@@ -11,7 +11,7 @@ import "swiper/css/navigation";
 // import required modules
 import { Pagination, Navigation, Autoplay } from "swiper";
 
-//IMPOR IMAGENES
+//IMPORT IMAGENES
 import FondoBuzo from "../media/FondoBuzo.png"
 import FondoBilingual from "../media/fondo-bilingual.png"
 import FondoCrazyBeer from "../media/APP-Cerveza.png"
