@@ -13,11 +13,11 @@ export default function About() {
   return (
     <div className='w-full h-screen md:flex justify-center  bg-black mt-10' id='sobremi'>
 
-      <div className='mt-10 text-white '>
+      <div className='mt-10 text-white'>
 
         <h1 className=' text-center mt-10 md:text-3xl text-2xl '>SOBRE MI</h1>
 
-        <p className=' text-center mt-5 md:text-xl text-sm p-5'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates cupiditate est temporibus error asperiores aperiam ullam placeat saepe, id consequatur sunt voluptatum magnam eveniet cumque nihil. Eligendi cum placeat ab!</p>
+        <p className=' text-center mt-5 md:text-xl text-sm p-5'>Soy desarrollador web enfocado en el FrontEnd, apasionado por la tecnología. Me considero una persona responsable y disciplinada que busca aportar sus habilidades y trabajar en equipo. <br/> Mi objetivo es seguir creciendo profesionalmente y continuar aprendiendo.</p>
 
         <h2 className='mt-10 text-center text-2xl '>SKILLS</h2>
 
@@ -67,8 +67,12 @@ export default function About() {
 
       </div>
 
-      <div>
-        <img className='w-[60%] mt-20  m-auto hover:scale-110 duration-300 rounded-md' src={FotoPerfil} alt="fotoDePerfil" />
+      <div className='text-center p-5 md:p-0'>
+        <img className='w-[60%] mt-20  m-auto rounded-md' src={FotoPerfil} alt="fotoDePerfil" />
+
+        <div className='bg-red-800 hover:bg-red-600  duration-300 cursor-pointer md:mt-5 md:mr-48 md:ml-48  md:hover:mr-44 md:hover:ml-44 mr-40 ml-40 font-medium text-white   shadow-red-600 rounded-md md:p-1 mt-2'>
+          <a href="https://drive.google.com/file/d/1QewFlmxZyQiITVx7g-cdx9NkFdai_RoG/view?usp=sharing" target="_blank" className='text-center'>CV</a>
+        </div>
       </div>
 
     </div>
