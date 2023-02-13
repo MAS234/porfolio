@@ -15,6 +15,8 @@ import viajes from "../media/vijaes.png";
 import criptomonedas from "../media/Fondo.png";
 import pizzas from "../media/pizzas.png";
 import Veterinaria from "../media/Fondo-veterinaria.png"
+import Clima from "../media/fondoClima.png"
+import Restaurant from "../media/fondoRestaurant.png"
 
 export default function Carrusel() {
 
@@ -54,6 +56,23 @@ export default function Carrusel() {
       link:"https://registro-clientes-veterinaria.vercel.app/",
       codde:"https://github.com/MAS234/paginaGym",
   },
+
+  {
+    imagen:Clima,
+    titulo:"Aplicacion Del Clima",
+    tituloChiquito:"VITE | REACT | TAILWIND",
+    info:"Esta aplicación se desarrolló en Vite, Tailwind y React. Es una aplicación que consulta a una API la información del clima de distintas partes del mundo, cuenta con validaciones donde el usuario tiene que ingresar información válida para que la aplicación pueda mostrarle el clima. Abajo encontraras el link de prueba para visitar la pagina y el código.",
+    link:"https://clima-app-peach.vercel.app/",
+    codde:"https://github.com/MAS234/ClimaApp",
+},
+{
+  imagen:Restaurant,
+  titulo:"Aplicacion Del Clima",
+  tituloChiquito:"NEXT | REACT | TAILWIND | MYSQL",
+  info:"Esta aplicación se desarrolló en NEXT, Tailwind , React y MySql en la parte del backend. Esta aplicación consiste en un sistema de pedidos de un restaurant, cuenta con las opciones de agregar, eliminar y editar los pedidos, los productos se dividen en categorías y el total del pedido se suma automáticamente en la pantalla final, luego toda la informacion del pedido pasa a otra pantalla de cocina donde llegan todos los pedidos. Abajo encontraras el link de prueba para visitar la pagina y el código.",
+  link:"https://restaurantapp-production-e1dc.up.railway.app/",
+  codde:"https://github.com/MAS234/RestaurantApp",
+},
   
   ];
 

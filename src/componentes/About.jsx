@@ -8,6 +8,8 @@ import Figma from "../media/figma.png"
 import Vite from "../media/logo-with-shadow.png"
 import Tailwind from "../media/Tailwind_CSS_Logo.svg.png"
 import FotoPerfil from "../media/fotoPerfil.jpg"
+import Next from "../media/nextjs.png"
+import Msql from "../media/mysql.png"
 
 export default function About() {
   return (
@@ -62,6 +64,17 @@ export default function About() {
           <div className='text-center hover:scale-110 duration-300'>
             <img className='h-12 w-13' src={Figma} alt="HTML" />
             <p>FIGMA</p>
+          </div>
+
+          <div className='text-center hover:scale-110 duration-300'>
+            <img className='h-12 w-13' src={Next} alt="HTML" />
+            <p>NEXT</p>
+          </div>
+
+          
+          <div className='text-center hover:scale-110 duration-300'>
+            <img className='h-12 w-13' src={Msql} alt="HTML" />
+            <p>MYQSL</p>
           </div>
         </div>
 
