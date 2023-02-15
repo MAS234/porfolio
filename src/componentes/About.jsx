@@ -84,7 +84,7 @@ export default function About() {
         <img className='w-[60%] mt-20  m-auto rounded-md' src={FotoPerfil} alt="fotoDePerfil" />
 
         <div className='bg-red-800 hover:bg-red-600  duration-300 cursor-pointer md:mt-5 md:mr-48 md:ml-48  md:hover:mr-44 md:hover:ml-44 mr-40 ml-40 font-medium text-white   shadow-red-600 rounded-md md:p-1 mt-2'>
-          <a href="https://drive.google.com/file/d/1-zvbEtqiKclkwEQCOrgyQIVgpTgDG2K_/view?usp=sharing" target="_blank" className='text-center'>CV</a>
+          <a href="https://drive.google.com/file/d/1DB-cE5KZyDMct0Mx02sbC_E6lH6QTTGt/view?usp=sharing" target="_blank" className='text-center'>CV</a>
         </div>
       </div>
 
