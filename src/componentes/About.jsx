@@ -10,6 +10,7 @@ import Tailwind from "../media/Tailwind_CSS_Logo.svg.png"
 import FotoPerfil from "../media/fotoPerfil.jpg"
 import Next from "../media/nextjs.png"
 import Msql from "../media/mysql.png"
+import Node from "../media/Node.png"
 
 export default function About() {
   return (
@@ -75,6 +76,11 @@ export default function About() {
           <div className='text-center hover:scale-110 duration-300'>
             <img className='h-12 w-13' src={Msql} alt="HTML" />
             <p>MYQSL</p>
+          </div>
+
+          <div className='text-center hover:scale-110 duration-300'>
+            <img className='h-12 w-13' src={Node} alt="node" />
+            <p>NODE.JS</p>
           </div>
         </div>
 
