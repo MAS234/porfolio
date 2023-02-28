@@ -17,6 +17,7 @@ import pizzas from "../media/pizzas.png";
 import Veterinaria from "../media/Fondo-veterinaria.png"
 import Clima from "../media/fondoClima.png"
 import Restaurant from "../media/fondoRestaurant.png"
+import Gastos from "../media/app-gastos.png"
 
 export default function Carrusel() {
 
@@ -73,6 +74,14 @@ export default function Carrusel() {
   link:"https://restaurantapp-production-e1dc.up.railway.app/",
   codde:"https://github.com/MAS234/RestaurantApp",
 },
+{
+  imagen:Gastos,
+  titulo:"Control de Gastos",
+  tituloChiquito:" REACT | VITE ",
+  info:"La aplicación de control de gastos consiste en ingresar un monto inicial de cuanto el usuario tiene disponible para gastar, los gastos en la aplicación se dividen en categorías, las cuales tienen un filtro. La aplicación proporciona información sobre el saldo gastado, el disponible y el porcentaje del saldo en una gráfica. Cuenta con validaciones y la opción de reiniciar la aplicación. Abajo encontraras el link de prueba para visitar la pagina y el código.",
+  link:"https://control-de-gastos-phi.vercel.app/",
+  codde:"https://github.com/MAS234/AppDeGastos",
+}
   
   ];
 
