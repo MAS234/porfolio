@@ -1,5 +1,4 @@
 import React from 'react'
-import {IoLogoWhatsapp} from "react-icons/io";
 
 export default function NavBar() {
   return (

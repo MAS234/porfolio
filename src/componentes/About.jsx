@@ -16,7 +16,7 @@ export default function About() {
   return (
     <div className='w-full h-screen md:flex justify-center  bg-black mt-10' id='sobremi'>
 
-      <div className='mt-10 text-white'>
+      <div className='mt-10 text-white' data-aos="fade-right" data-aos-duration="1000">
 
         <h1 className=' text-center mt-10 md:text-3xl text-2xl '>SOBRE MI</h1>
 
@@ -86,7 +86,7 @@ export default function About() {
 
       </div>
 
-      <div className='text-center p-5 md:p-0'>
+      <div className='text-center p-5 md:p-0' data-aos="zoom-in-up" data-aos-duration="1000">
         <img className='w-[60%] mt-20  m-auto rounded-md' src={FotoPerfil} alt="fotoDePerfil" />
 
         <div className='bg-red-800 hover:bg-red-600  duration-300 cursor-pointer md:mt-5 md:mr-48 md:ml-48  md:hover:mr-44 md:hover:ml-44 mr-40 ml-40 font-medium text-white   shadow-red-600 rounded-md md:p-1 mt-2'>
