@@ -10,10 +10,15 @@
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
     "react": "^18.2.0",
+    "react-d3-cloud": "^1.0.6",
     "react-dom": "^18.2.0",
+    "react-icon-cloud": "^4.1.4",
     "react-icons": "^4.4.0",
     "react-scripts": "5.0.1",
+    "simple-icons": "^8.6.0",
     "swiper": "^8.3.2",
+    "uuid": "^9.0.0",
+    "uuidv4": "^6.2.13",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
