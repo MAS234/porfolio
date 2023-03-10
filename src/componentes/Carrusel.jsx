@@ -13,31 +13,30 @@ import { Pagination, Navigation, Autoplay } from "swiper";
 
 import viajes from "../media/vijaes.png";
 import criptomonedas from "../media/Fondo.png";
-import pizzas from "../media/pizzas.png";
 import Veterinaria from "../media/Fondo-veterinaria.png";
 import Clima from "../media/fondoClima.png";
 import Restaurant from "../media/fondoRestaurant.png";
 import Gastos from "../media/app-gastos.png";
-
+import Jimo from "../media/JIMO OFICIAL.png"
 export default function Carrusel() {
   const slideInfo = [
     {
+      imagen: Jimo,
+      titulo: "JIMO-OFICIAL",
+      tituloChiquito: "REACT | VITE | TAILWIND",
+      info: "JIMO-OFIICIAL es una sitio web desarrollado para un comercio familiar, es un onepage que provee información sobre los productos que ofrecen en el establecimiento y habla sobre su emprendimiento. Te invito a visitar el sitio web y el codigo.",
+      link: "https://jimo-oficial.vercel.app/",
+      codde: "https://github.com/MAS234/JIMO-OFICIAL",
+      id:1
+    },
+    {
+      
       imagen: viajes,
       titulo: "Sky-Fly",
       tituloChiquito: "HTML5 | CSS3",
-      info: "Sky-Fly es una onepage de viajes desarrollada en HTML5 Y CSS3, su objetivo es vender paquetes de viaje y proporcionar información al cliente sobre los distintos destinos. Abajo encontraras el link de prueba para visitar la pagina y el código.",
+      info: "Sky-Fly es una onepage de viajes desarrollada en HTML5 Y CSS3, su objetivo es vender paquetes de viaje y proporcionar información al cliente sobre los distintos destinos. Te invito a visitar el sitio web y el codigo.",
       link: "https://mas234.github.io/paginaViajes/",
       codde: "https://github.com/MAS234/paginaViajes",
-      id:1
-    },
-
-    {
-      imagen: pizzas,
-      titulo: "Pizzas Martínez",
-      tituloChiquito: "HTML5 | CSS3 | JAVASCRIPT",
-      info: "Pizzas Martínez es un proyecto desarrollado en HTML5, CSS3 Y JAVASCRIPT, tiene como objetivo informar al usuario sobre la ubicación del lugar, como instalar la aplicación para realizar pedidos y algunos productos con los que cuenta el lugar. Abajo encontraras el link de prueba para visitar la pagina y el código.",
-      link: "https://mas234.github.io/pizzeriaPagina/",
-      codde: "https://github.com/MAS234/pizzeriaPagina",
       id:2
     },
 
@@ -45,7 +44,7 @@ export default function Carrusel() {
       imagen: criptomonedas,
       titulo: "Cotizador de Criptomonedas",
       tituloChiquito: "VITE | REACT | TAILWIND",
-      info: "Esta aplicacion fue desarrollada en Vite, Tailwind y React. Es una aplicación que extrae información de una API la cual hace la conversión en tiempo real de la moneda elegida y la criptomoneda elegida. Abajo encontraras el link de prueba para visitar la pagina y el código.",
+      info: "Esta aplicacion fue desarrollada en Vite, Tailwind y React. Es una aplicación que extrae información de una API la cual hace la conversión en tiempo real de la moneda elegida y la criptomoneda elegida. Te invito a visitar la aplicación  y el codigo.",
       link: "https://cotizador-criptomonedas-react-tau.vercel.app/",
       codde: "https://github.com/MAS234/CotizadorCriptomonedas-react",
       id:3
@@ -55,7 +54,7 @@ export default function Carrusel() {
       imagen: Veterinaria,
       titulo: "Administrador de Pacientes",
       tituloChiquito: "VITE | REACT | TAILWIND",
-      info: "Esta aplicación se desarrolló en Vite, Tailwind y React. Es una aplicación dirigida a una veterinaria. Tiene opciones de agregar pacientes, editar la información de los pacientes y por ultimo eliminar algún paciente. Abajo encontraras el link de prueba para visitar la pagina y el código.",
+      info: "Esta aplicación se desarrolló en Vite, Tailwind y React. Es una aplicación dirigida a una veterinaria. Tiene opciones de agregar pacientes, editar la información de los pacientes y por ultimo eliminar algún paciente.Te invito a visitar la aplicación  y el codigo.",
       link: "https://registro-clientes-veterinaria.vercel.app/",
       codde: "https://github.com/MAS234/paginaGym",
       id:4
@@ -65,7 +64,7 @@ export default function Carrusel() {
       imagen: Clima,
       titulo: "Aplicacion Del Clima",
       tituloChiquito: "VITE | REACT | TAILWIND",
-      info: "Esta aplicación se desarrolló en Vite, Tailwind y React. Es una aplicación que consulta a una API la información del clima de distintas partes del mundo, cuenta con validaciones donde el usuario tiene que ingresar información válida para que la aplicación pueda mostrarle el clima. Abajo encontraras el link de prueba para visitar la pagina y el código.",
+      info: "Esta aplicación se desarrolló en Vite, Tailwind y React. Es una aplicación que consulta a una API la información del clima de distintas partes del mundo, cuenta con validaciones donde el usuario tiene que ingresar información válida para que la aplicación pueda mostrarle el clima.Te invito a visitar la aplicación  y el codigo.",
       link: "https://clima-app-peach.vercel.app/",
       codde: "https://github.com/MAS234/ClimaApp",
       id:5
@@ -74,7 +73,7 @@ export default function Carrusel() {
       imagen: Restaurant,
       titulo: "Aplicacion Del Clima",
       tituloChiquito: "NEXT | REACT | TAILWIND | MYSQL",
-      info: "Esta aplicación se desarrolló en NEXT, Tailwind , React y MySql en la parte del backend. Esta aplicación consiste en un sistema de pedidos de un restaurant, cuenta con las opciones de agregar, eliminar y editar los pedidos, los productos se dividen en categorías y el total del pedido se suma automáticamente en la pantalla final, luego toda la informacion del pedido pasa a otra pantalla de cocina donde llegan todos los pedidos. Abajo encontraras el link de prueba para visitar la pagina y el código.",
+      info: "Esta aplicación se desarrolló en NEXT, Tailwind , React y MySql en la parte del backend. Esta aplicación consiste en un sistema de pedidos de un restaurant, cuenta con las opciones de agregar, eliminar y editar los pedidos, los productos se dividen en categorías y el total del pedido se suma automáticamente en la pantalla final, luego toda la informacion del pedido pasa a otra pantalla de cocina donde llegan todos los pedidos.Te invito a visitar la aplicación  y el codigo.",
       link: "https://restaurantapp-production-e1dc.up.railway.app/",
       codde: "https://github.com/MAS234/RestaurantApp",
       id:6
@@ -83,7 +82,7 @@ export default function Carrusel() {
       imagen: Gastos,
       titulo: "Control de Gastos",
       tituloChiquito: " REACT | VITE ",
-      info: "La aplicación de control de gastos consiste en ingresar un monto inicial de cuanto el usuario tiene disponible para gastar, los gastos en la aplicación se dividen en categorías, las cuales tienen un filtro. La aplicación proporciona información sobre el saldo gastado, el disponible y el porcentaje del saldo en una gráfica. Cuenta con validaciones y la opción de reiniciar la aplicación. Abajo encontraras el link de prueba para visitar la pagina y el código.",
+      info: "La aplicación de control de gastos consiste en ingresar un monto inicial de cuanto el usuario tiene disponible para gastar, los gastos en la aplicación se dividen en categorías, las cuales tienen un filtro. La aplicación proporciona información sobre el saldo gastado, el disponible y el porcentaje del saldo en una gráfica. Cuenta con validaciones y la opción de reiniciar la aplicación.Te invito a visitar la aplicación  y el codigo.",
       link: "https://control-de-gastos-phi.vercel.app/",
       codde: "https://github.com/MAS234/AppDeGastos",
       id:7
